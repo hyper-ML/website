@@ -1,0 +1,48 @@
+@media only screen and (max-width: 730px) {
+	.hf-header-title{
+		display: none !important;
+	}
+
+	.main-content{ 
+		align-items: left; 
+		padding-left: 10px;
+	}
+
+	.large-screen-header{
+		font-size: 34px;
+	}
+
+	.large-screen-sub-header{
+		display: none !important;
+	}
+
+	.small-screen-sub-header{
+		font-size: 20px;
+
+		display: initial !important;
+	}
+
+	.download-btn{
+		display: none;
+	}
+
+	.click-img {
+		width: 50% !important;
+	}
+}
+
+ 
+.main-content{
+	display: flex; 
+	flex-direction: column; 
+	padding-top: 30px;
+}
+
+.large-screen-sub-header{
+	display: initial !important;
+}
+
+.small-screen-sub-header{
+	display: none;
+}
+

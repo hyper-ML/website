@@ -4,7 +4,7 @@
   <title>hyperflow.in</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="/css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto" rel="stylesheet">
   <link rel=”shortcut icon” href=”/assets/images/favicon.ico” type=”image/x-icon” />
 
@@ -19,27 +19,32 @@
       <div style="display: flex;flex-direction: row"> 
         <img style="width: 24px; height:24px; padding: 0.3em; border: 1px solid #1A7DE4;" src="/assets/images/favicon.png">
         
-        <div style="margin-left:0.3em; color: #1A7DE4; font-size: 24px; font-family: 'Source Sans pro'"> hyperflow </div>
+        <div class="hf-header-title" style="margin-left:0.3em; color: #1A7DE4; font-size: 24px; font-family: 'Source Sans pro'"> hyperflow </div>
       </div>
       
       <div  style="margin-right: 10%;"> 
         <a href="/docs/introduction" style="color: #1A7DE4;font-family: 'Source sans pro';font-size: 18px;"> Docs </a>
         <a href="https://github.com/hyperflow-ai/hyperflow" style="margin-left:2em; color: #1A7DE4;font-family: 'Source sans pro';font-size: 18px;"> Github </a>
-        <a href="" style="margin-left:2em; color: #1A7DE4;font-family: 'Source sans pro';font-size: 18px;"> Blog </a>
+        <!--a href="" style="margin-left:2em; color: #1A7DE4;font-family: 'Source sans pro';font-size: 18px;"> Blog </a-->
       </div>
 
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; padding-top: 30px">
-      <h1 style="color: #1A7DBE; font-family: Roboto; font-size: 42px;margin-bottom: 0;"> Reusable Deep Learning at Scale </h1>  
-      <h2 style="color: #676963; font-family: 'Source Sans Pro'; font-weight: 400;margin-bottom: 4px">Hyperflow helps AI teams succeed </h2>
-      <h2 style="margin-top: 4px; color: #676963; font-family: 'Source Sans Pro'; font-weight: 400;">by optimising model building and collaboration workflow </h2>
+    <div class="main-content" style="display: flex; flex-direction: column; align-items: center; padding-top: 30px">
+      <h1 class="large-screen-header" style="color: #1A7DBE; font-family: Roboto; font-size: 42px;margin-bottom: 0;"> Reusable Deep Learning at Scale </h1>  
+      
+      <h2 class="large-screen-sub-header" style="display: none; color: #676963; font-family: 'Source Sans Pro'; font-weight: 400;margin-bottom: 4px">Hyperflow helps AI teams succeed </h2>
 
-      <img src="/assets/images/click1.png" style="width: 30%; opacity: 0.85"/>
+      <h2 class="large-screen-sub-header"  style="display: none; margin-top: 4px; color: #676963; font-family: 'Source Sans Pro'; font-weight: 400;">by optimising model building and collaboration workflow </h2>
+
+       <h2 class="small-screen-sub-header" style="display: none; color: #676963; font-family: 'Source Sans Pro'; font-weight: 400;margin-bottom: 4px">Hyperflow helps AI teams succeed by optimising model building and collaboration workflow</h2>
+
+
+      <img class="click-img" src="/assets/images/click1.png" style="width: 30%; opacity: 0.85"/>
       
       <div style="display: flex; flex-direction: row; margin-top: 1em;"> 
         <a href="/docs/introduction" style="text-decoration: none; cursor: pointer;  background-color: #fff; color: #676963; border: 1px solid #676963;font-family: Roboto; font-weight: 100;font-size: 18px; padding: 0.8em 4em;border-radius: 0px;margin-right: 1em; "> Read Docs </a> 
 
-        <a href="/docs/download" style="text-decoration: none; cursor: pointer;  background-color: #1DB100; color: #fff; font-family: Roboto; font-weight: 100;font-size: 18px; padding: 0.8em 4em;border-radius: 0px;"> Download </a>  
+        <a class="download-btn" href="/docs/download" style="text-decoration: none; cursor: pointer;  background-color: #1DB100; color: #fff; font-family: Roboto; font-weight: 100;font-size: 18px; padding: 0.8em 4em;border-radius: 0px;"> Download </a>  
       </div>
       <h2 style="color: #7A7D93; font-family: 'Source Sans Pro'; font-weight: 400; font-size: 14px;"> Manage and share data experiments on premise. <a href="/docs/introduction" style="color: #1A7DE4"> Learn more. </a></h2>
     </div>
