@@ -17,9 +17,8 @@
 	}
 
 	.small-screen-sub-header{
-		font-size: 20px;
-
-		display: initial !important;
+		font-size: 20px; 
+		display: block !important;
 	}
 
 	.download-btn{
@@ -31,6 +30,7 @@
 	}
 }
 
+
  
 .main-content{
 	display: flex; 
@@ -39,7 +39,7 @@
 }
 
 .large-screen-sub-header{
-	display: initial !important;
+	display: block;
 }
 
 .small-screen-sub-header{
