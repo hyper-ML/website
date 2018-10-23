@@ -4,12 +4,13 @@
 	}
 
 	.main-content{ 
-		align-items: left; 
-		padding-left: 10px;
+		padding-top: 10vh;
+		padding-left: 4vh;
+
 	}
 
 	.large-screen-header{
-		font-size: 34px;
+		font-size: 2em;
 	}
 
 	.large-screen-sub-header{
@@ -17,7 +18,7 @@
 	}
 
 	.small-screen-sub-header{
-		font-size: 20px; 
+		font-size: 1.1em; 
 		display: block !important;
 	}
 
@@ -25,24 +26,33 @@
 		display: none;
 	}
 
-	.click-img {
-		width: 50% !important;
+	.click-img-container {
+		display: none;
+	}
+
+	.click-img{
+		display: none;
 	}
 }
 
-
+@media only screen and (min-width: 730px) {
  
 .main-content{
-	display: flex; 
-	flex-direction: column; 
-	padding-top: 30px;
+	padding-top: 15vh;
+	padding-left: 20vh;
+}
+
+.large-screen-header{
+	font-size: 2.8em;
 }
 
 .large-screen-sub-header{
 	display: block;
+	font-size: 2.5em;
 }
 
 .small-screen-sub-header{
 	display: none;
 }
 
+}
