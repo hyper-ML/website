@@ -1,4 +1,8 @@
 @media only screen and (max-width: 730px) {
+	#main_header{
+ 		padding-left: 2em;
+ 	}
+ 
 	.hf-header-title{
 		display: none !important;
 	}
@@ -36,7 +40,10 @@
 }
 
 @media only screen and (min-width: 730px) {
- 
+ #main_header{
+ 	padding-left: 6em;
+ }
+
 .main-content{
 	padding-top: 15vh;
 	padding-left: 20vh;
